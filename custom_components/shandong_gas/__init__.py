@@ -8,7 +8,7 @@ from .const import DOMAIN, PLATFORMS
 from .coordinator import ShandongGasDataUpdateCoordinator
 
 
-def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
+async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
     session = aiohttp_client.async_get_clientsession(hass)
     coordinator = ShandongGasDataUpdateCoordinator(hass, session, entry)
 
