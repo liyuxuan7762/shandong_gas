@@ -1,0 +1,11 @@
+{
+  "domain": "shandong_gas",
+  "name": "Shandong Gas",
+  "version": "1.0.0",
+  "documentation": "https://www.home-assistant.io/",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": [],
+  "config_flow": true,
+  "iot_class": "cloud"
+}
